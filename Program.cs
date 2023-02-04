@@ -5,3 +5,7 @@ string[] strings = { "Hello", "World", "2", ":-)", "16", "O" };
 
 var result = strings.Where(s => s.Length <= 3).ToArray(); 
 
+Console.WriteLine(string.Join(", ", result)); 
+
+Console.ReadLine();
+
